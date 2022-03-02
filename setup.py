@@ -27,7 +27,7 @@ def version_scheme(version):
 
 
 setup(
-    name="sshuttle",
+    name="sshuttle-telepresence",
     use_scm_version={
         'write_to': "sshuttle/version.py",
         'version_scheme': version_scheme,
@@ -58,7 +58,7 @@ setup(
     scripts=['bin/sudoers-add'],
     entry_points={
         'console_scripts': [
-            'sshuttle = sshuttle.cmdline:main',
+            'sshuttle-telepresence = sshuttle.cmdline:main',
         ],
     },
     python_requires='>=3.6',

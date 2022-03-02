@@ -1,3 +1,10 @@
+Forked version to support Telepresence
+======================================
+
+See telepresence issue: https://github.com/datawire/telepresence/issues/247
+The telepresence changes were also forward ported to the latest version
+
+
 sshuttle: where transparent proxy meets VPN meets ssh
 =====================================================
 
