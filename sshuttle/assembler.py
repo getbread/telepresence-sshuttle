@@ -3,7 +3,7 @@ import zlib
 import types
 import platform
 
-verbosity = verbosity  # noqa: F821 must be a previously defined global
+verbosity = 3 #verbosity  # noqa: F821 must be a previously defined global
 if verbosity > 0:
     sys.stderr.write(' s: Running server on remote host with %s (version %s)\n'
                      % (sys.executable, platform.python_version()))

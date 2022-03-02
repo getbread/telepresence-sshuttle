@@ -4,7 +4,7 @@ import errno
 import os
 
 logprefix = ''
-verbose = 0
+verbose = 3
 
 
 def b(s):
